@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 //import Home from './Home/Home';
-import Todo from './Todo/Todo';
+//import Todo from './Todo/Todo';
+import Timer from './Pomodoro/Timer';
 import Header from '../shared/components/layout/Header';
 import Content from '../shared/components/layout/Content';
 import Footer from '../shared/components/layout/Footer';
@@ -13,7 +14,7 @@ class App extends Component {
         <Header title='Todo List' />
         
         <Content>
-          <Todo />
+          <Timer />
         </Content>
         
         <Footer />
